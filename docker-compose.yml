@@ -1,0 +1,6 @@
+version: '2'
+services:
+  app-test-2:
+    build: .
+    ports:
+      - "3001:3001"
